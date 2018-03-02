@@ -1,0 +1,49 @@
+{
+   "fonts" : [
+      {
+         "cached" : [
+            {
+               "path" : "fonts/sdf/Fontdiner Swanky-40.sdft",
+               "size" : 40
+            }
+         ],
+         "font_path" : "fonts/FontdinerSwanky.ttf",
+         "font_name" : "FontdinerSwanky"
+      },
+      {
+         "cached" : [
+            {
+               "path" : "fonts/sdf/Lobster-20.sdft",
+               "size" : 20
+            }
+         ],
+         "font_path" : "fonts/Lobster-Regular.ttf",
+         "font_name" : "Lobster-Regular"
+      },
+      {
+         "cached" : [
+            {
+               "path" : "fonts/sdf/Luckiest Guy-50.sdft",
+               "size" : 50
+            }
+         ],
+         "font_path" : "fonts/LuckiestGuy.ttf",
+         "font_name" : "LuckiestGuy"
+      },
+      {
+         "cached" : [
+            {
+               "path" : "fonts/sdf/Roboto-10.sdft",
+               "size" : 10
+            },
+            {
+               "path" : "fonts/sdf/Roboto-42.sdft",
+               "size" : 42
+            }
+         ],
+         "font_path" : "fonts/Roboto-Bold.ttf",
+         "font_name" : "Roboto-Bold"
+      }
+   ],
+   "texture size" : 1024
+}

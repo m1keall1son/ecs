@@ -1,0 +1,31 @@
+{
+	"name" : "StartUpScene",
+	"initializer" : "StartUpInit",
+	"systems" : [
+		{
+			"type" : "SceneGraphSystem",
+			"pool" : 400,
+			"config" : null
+		},
+		{
+			"type" : "InputSystem",
+			"pool" : 200,
+			"config" : null
+		},
+		{
+			"type" : "AnimationSystem",
+			"pool" : 200,
+			"config" : null
+		},
+		{
+			"type" : "RenderSystem",
+			"pool" : 200,
+			"config" : null
+		},
+		{
+			"type" : "TextSystem",
+			"pool" : 200,
+			"config" : "StartUpScene/TextSystem/TextSystemConfig.json"
+		}
+	]
+}

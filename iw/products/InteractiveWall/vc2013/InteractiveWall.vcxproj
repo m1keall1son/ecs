@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0DA03CAB-92C1-4F12-8CB9-3AB98C5B6189}</ProjectGuid>
+    <RootNamespace>InteractiveWall</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\cinder\blocks\midnight-http\config\midnight-http.props" />
+    <Import Project="..\..\..\cinder\blocks\midnight-zed\config\midnight-zed.props" />
+    <Import Project="InteractiveWall.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\cinder\blocks\midnight-http\config\midnight-http.props" />
+    <Import Project="..\..\..\cinder\blocks\midnight-zed\config\midnight-zed.props" />
+    <Import Project="InteractiveWall.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\..\..\cinder\include;..\..\..\cinder\blocks\Box2D\src;..\..\..\cinder\blocks\midnight-zed\src;..\..\..\cinder\blocks\midnight-pqlabsTouchSDK\include;..\..\..\cinder\blocks\Cinder-WMFVideo\src;..\..\..\cinder\blocks\t2-ecs\src;%(AdditionalIncludeDirectories);..\..\..\cinder\blocks\midnight-http\src;..\..\..\cinder\blocks\midnight-http\libs\libcurl\include;..\..\..\cinder\blocks\Box2D\src\Box2D</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\..\cinder\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>PQMTClient.lib;cinder-$(PlatformToolset)_d.lib;OpenGL32.lib;%(AdditionalDependencies);..\..\..\cinder\blocks\t2-ecs\lib\SDFText\msw\$(PlatformTarget)\Debug\cinder-sdftext-v140.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\cinder\blocks\midnight-pqlabsTouchSDK\lib\$(PlatformTarget);..\..\..\cinder\lib\msw\$(PlatformTarget);%(AdditionalLibraryDirectories);..\..\..\cinder\blocks\midnight-http\libs\libcurl\lib</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <IgnoreSpecificDefaultLibraries>LIBCMT;LIBCPMT</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include;..\..\..\cinder\include;..\..\..\cinder\blocks\Box2D\src;..\..\..\cinder\blocks\midnight-zed\src;..\..\..\cinder\blocks\midnight-pqlabsTouchSDK\include;..\..\..\cinder\blocks\Cinder-WMFVideo\src;..\..\..\cinder\blocks\t2-ecs\src;..\..\..\cinder\blocks\midnight-http\src;..\..\..\cinder\blocks\midnight-http\libs\libcurl\include;..\..\..\cinder\blocks\Box2D\src\Box2D;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\..\cinder\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>PQMTClient.lib;cinder-$(PlatformToolset).lib;OpenGL32.lib;%(AdditionalDependencies);..\..\..\cinder\blocks\t2-ecs\lib\SDFText\msw\$(PlatformTarget)\Release\cinder-sdftext-v140.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\cinder\blocks\midnight-pqlabsTouchSDK\lib\$(PlatformTarget);..\..\..\cinder\lib\msw\$(PlatformTarget);..\..\..\cinder\blocks\midnight-http\libs\libcurl\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2BroadPhase.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2CollideCircle.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2CollideEdge.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2CollidePolygon.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2Collision.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2Distance.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2DynamicTree.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2TimeOfImpact.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2ChainShape.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2CircleShape.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2EdgeShape.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2PolygonShape.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2BlockAllocator.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Draw.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Math.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Settings.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2StackAllocator.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Timer.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2Body.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2ContactManager.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2Fixture.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2Island.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2World.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2WorldCallbacks.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2CircleContact.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2Contact.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2ContactSolver.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2PolygonContact.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2DistanceJoint.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2FrictionJoint.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2GearJoint.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2Joint.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2MouseJoint.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2PulleyJoint.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2RopeJoint.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2WeldJoint.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2WheelJoint.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Rope\b2Rope.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayer.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayerUtils.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\PresentEngine.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\Presenter.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\PresenterHelpers.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\scheduler.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\midnight-http\src\HttpClient.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\midnight-pqlabsTouchSDK\include\ciPQLabsTouch.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\midnight-zed\src\Analysis.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\midnight-zed\src\PersonDetector.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\midnight-zed\src\PointCloud.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\midnight-zed\src\Zed.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\events\EventManager.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\b2DebugDraw.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\Joint2d.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\PhysicsSystem2d.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\RigidBodyComponent2d.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\IMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TexturePoolMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\Spring2d.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Triangle.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Triangluator.cpp" />
+    <ClCompile Include="..\src\InteractiveWallApp.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Component.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Entity.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Engine.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Scene.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Gui.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Input.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\InputSystem.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\QuadTree.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\UIComponent.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\GLBuffer.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderComponent.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderSystem.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawableItem.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawCalls.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\MaterialBatch.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\RenderTarget.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\camera\CameraComponent.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\ColorMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\FlatMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\GlyphDebugMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\LambertMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\QuadTreeDebugMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\SDFGlyphMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextBoxDebugMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextureMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\UIDebugMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\WireframeMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Geometry.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Mesh.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\technique\RenderTechnique.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\SceneGraphSystem.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\TransformComponent.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Handle.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\IObjectPool.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Utils.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\Animation.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationComponent.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationSystem.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextComponent.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextSystem.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\sdf\SdfText.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\msdfgen.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\util.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Bitmap.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Contour.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-coloring.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-segments.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\EdgeHolder.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\equation-solver.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\render-sdf.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\save-bmp.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\shape-description.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Shape.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\SignedDistance.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Vector2.cpp" />
+    <ClCompile Include="..\src\IWDemo\DemoApproach.cpp" />
+    <ClCompile Include="..\src\IWDemo\DemoEngage.cpp" />
+    <ClCompile Include="..\src\IWDemo\DemoEvents.cpp" />
+    <ClCompile Include="..\src\IWDemo\DemoFarAway.cpp" />
+    <ClCompile Include="..\src\IWDemo\DemoInit.cpp" />
+    <ClCompile Include="..\src\IWDemo\DemoPDP.cpp" />
+    <ClCompile Include="..\src\IWDemo\VideoMaterial.cpp" />
+    <ClCompile Include="..\src\IWDemo\Serial.cpp" />
+    <ClCompile Include="..\src\IWScene\ApproachState.cpp" />
+    <ClCompile Include="..\src\IWScene\EngageState.cpp" />
+    <ClCompile Include="..\src\IWScene\FarAwayState.cpp" />
+    <ClCompile Include="..\src\IWScene\IWEvents.cpp" />
+    <ClCompile Include="..\src\IWScene\IWInitializer.cpp" />
+    <ClCompile Include="..\src\IWScene\Layout.cpp" />
+    <ClCompile Include="..\src\IWScene\PDPState.cpp" />
+    <ClCompile Include="..\src\StartUpScene\LoadState.cpp" />
+    <ClCompile Include="..\src\StartUpScene\StartUpInit.cpp" />
+    <ClCompile Include="..\src\Taxonomy\CloudComponent.cpp" />
+    <ClCompile Include="..\src\Taxonomy\DatabaseAPI.cpp" />
+    <ClCompile Include="..\src\Taxonomy\ProductComponent.cpp" />
+    <ClCompile Include="..\src\Taxonomy\SubcategoryComponent.cpp" />
+    <ClCompile Include="..\src\Taxonomy\TaxonomySystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Box2D.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2BroadPhase.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2Collision.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2Distance.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2DynamicTree.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2TimeOfImpact.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2ChainShape.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2CircleShape.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2EdgeShape.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2PolygonShape.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2Shape.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2BlockAllocator.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Draw.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2GrowableStack.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Math.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Settings.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2StackAllocator.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Timer.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2Body.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2ContactManager.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2Fixture.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2Island.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2TimeStep.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2World.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2WorldCallbacks.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2CircleContact.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2Contact.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2ContactSolver.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2PolygonContact.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2DistanceJoint.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2FrictionJoint.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2GearJoint.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2Joint.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2MouseJoint.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2PrismaticJoint.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2PulleyJoint.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2RevoluteJoint.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2RopeJoint.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2WeldJoint.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2WheelJoint.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Rope\b2Rope.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayer.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayerUtils.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\AsyncCB.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\BufferLock.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\ClassFactory.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\common.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\critsec.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\GrowArray.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\linklist.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\logging.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\logmediatype.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\mediatype.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\mfutils.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\PropVar.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\registry.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\TinyMap.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\trace.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\EVRPresenter.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\EVRPresenterUuid.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\PresentEngine.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\Presenter.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\PresenterHelpers.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\scheduler.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-http\src\HttpClient.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-pqlabsTouchSDK\include\ciPQLabsTouch.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-pqlabsTouchSDK\include\PQMTClient.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-zed\src\Analysis.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-zed\src\PersonDetector.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-zed\src\PointCloud.hpp" />
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-zed\src\Zed.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ECS.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Component.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Entity.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Engine.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\ISceneInitializer.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\ISceneLogicState.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\ISystem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Scene.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\events\EventData.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\events\EventManager.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\events\EventManagerBase.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Gui.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Input.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\InputSystem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\QuadTree.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\QuadTreeNode.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\UIComponent.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\b2DebugDraw.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\Joint2d.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\PhysicsSystem2d.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\RigidBodyComponent2d.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\Spring2d.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\TriggerComponent2d.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\GLBuffer.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TexturePoolMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderComponent.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderConstants.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderSystem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawableItem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawCalls.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\MaterialBatch.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\RenderTarget.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\camera\Camera.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\camera\CameraComponent.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\ColorMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\FlatMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\GlyphDebugMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\IMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\LambertMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\QuadTreeDebugMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\SDFGlyphMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextBoxDebugMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextureMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\UIDebugMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\WireframeMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\Material.hpp" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Geometry.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Mesh.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\technique\Pass.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\technique\RenderTechnique.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\SceneGraphSystem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\TransformComponent.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Edge.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\FastDelegate.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\FastDelegateBind.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Handle.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\IObjectPool.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\PoolableObject.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Triangle.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Triangluator.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Utils.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Manager.hpp" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\ObjectPool.hpp" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\Animation.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationComponent.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationSystem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextComponent.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextSystem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\sdf\SdfText.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\msdfgen.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\util.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Bitmap.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Contour.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-coloring.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-segments.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\EdgeColor.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\EdgeHolder.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\equation-solver.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\render-sdf.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\save-bmp.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\shape-description.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Shape.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\SignedDistance.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Vector2.h" />
+    <ClInclude Include="..\src\IWDemo\DemoApproach.h" />
+    <ClInclude Include="..\src\IWDemo\DemoEngage.h" />
+    <ClInclude Include="..\src\IWDemo\DemoEvents.h" />
+    <ClInclude Include="..\src\IWDemo\DemoFarAway.h" />
+    <ClInclude Include="..\src\IWDemo\DemoInit.h" />
+    <ClInclude Include="..\src\IWDemo\DemoPDP.h" />
+    <ClInclude Include="..\src\IWDemo\VideoMaterial.h" />
+    <ClInclude Include="..\src\IWDemo\Serial.h" />
+    <ClInclude Include="..\src\IWScene\ApproachState.h" />
+    <ClInclude Include="..\src\IWScene\CollisionTypes.h" />
+    <ClInclude Include="..\src\IWScene\EngageState.h" />
+    <ClInclude Include="..\src\IWScene\FarAwayState.h" />
+    <ClInclude Include="..\src\IWScene\IWEvents.h" />
+    <ClInclude Include="..\src\IWScene\IWInitializer.h" />
+    <ClInclude Include="..\src\IWScene\IWStates.h" />
+    <ClInclude Include="..\src\IWScene\Layout.h" />
+    <ClInclude Include="..\src\IWScene\PDPState.h" />
+    <ClInclude Include="..\src\StartUpScene\LoadState.h" />
+    <ClInclude Include="..\src\StartUpScene\StartUpInit.h" />
+    <ClInclude Include="..\src\Taxonomy\CloudComponent.h" />
+    <ClInclude Include="..\src\Taxonomy\DatabaseAPI.h" />
+    <ClInclude Include="..\src\Taxonomy\ProductComponent.h" />
+    <ClInclude Include="..\src\Taxonomy\SubcategoryComponent.h" />
+    <ClInclude Include="..\src\Taxonomy\TaxonomyEnums.h" />
+    <ClInclude Include="..\src\Taxonomy\TaxonomySystem.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

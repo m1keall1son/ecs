@@ -1,0 +1,9 @@
+#pragma once
+
+enum class IWState {
+	LOAD_STATE,
+ 	FAR_AWAY_STATE,
+	APPROACH_STATE,
+	ENGAGE_STATE,
+	PDP_STATE
+};

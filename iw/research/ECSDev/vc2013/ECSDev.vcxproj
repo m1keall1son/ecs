@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BF7C8E7D-2C42-4C5C-8DFA-EF205D10D6DA}</ProjectGuid>
+    <RootNamespace>ECSDev</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;"..\..\..\cinder\include";..\..\..\cinder\blocks\t2-ecs\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\..\cinder\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset)_d.lib;OpenGL32.lib;%(AdditionalDependencies);..\..\..\cinder\blocks\t2-ecs\lib\SDFText\msw\$(PlatformTarget)\Debug\cinder-sdftext-v140.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"..\..\..\cinder\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;LIBCPMT</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;"..\..\..\cinder\include";..\..\..\cinder\blocks\t2-ecs\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\..\cinder\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset)_d.lib;OpenGL32.lib;%(AdditionalDependencies);..\..\..\cinder\blocks\t2-ecs\lib\SDFText\msw\$(PlatformTarget)\Debug\cinder-sdftext-v140.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"..\..\..\cinder\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <IgnoreSpecificDefaultLibraries>LIBCMT;LIBCPMT</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include;"..\..\..\cinder\include";..\..\..\cinder\blocks\t2-ecs\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\..\cinder\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset).lib;OpenGL32.lib;%(AdditionalDependencies);..\..\..\cinder\blocks\t2-ecs\lib\SDFText\msw\$(PlatformTarget)\Release\cinder-sdftext-v140.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"..\..\..\cinder\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include;"..\..\..\cinder\include";..\..\..\cinder\blocks\t2-ecs\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\..\cinder\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset).lib;OpenGL32.lib;%(AdditionalDependencies);..\..\..\cinder\blocks\t2-ecs\lib\SDFText\msw\$(PlatformTarget)\Release\cinder-sdftext-v140.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"..\..\..\cinder\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <ClCompile Include="..\src\ECSDevApp.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Component.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Entity.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Engine.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Scene.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Gui.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Input.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\InputSystem.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\QuadTree.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\UIComponent.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\GLBuffer.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderComponent.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderSystem.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawableItem.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawCalls.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\MaterialBatch.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\RenderTarget.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\camera\CameraComponent.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\ColorMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\FlatMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\GlyphDebugMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\LambertMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\QuadTreeDebugMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\SDFGlyphMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextBoxDebugMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextureMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\UIDebugMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\WireframeMaterial.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Geometry.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Mesh.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\technique\RenderTechnique.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\SceneGraphSystem.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\TransformComponent.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Handle.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\IObjectPool.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Utils.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\Animation.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationComponent.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationSystem.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextComponent.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextSystem.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\sdf\SdfText.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\msdfgen.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\util.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Bitmap.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Contour.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-coloring.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-segments.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\EdgeHolder.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\equation-solver.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\render-sdf.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\save-bmp.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\shape-description.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Shape.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\SignedDistance.cpp" />
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Vector2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ECS.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Component.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Entity.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Engine.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\ISceneInitializer.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\ISceneLogicState.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\ISystem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Scene.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Gui.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Input.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\InputSystem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\QuadTree.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\QuadTreeNode.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\UIComponent.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\GLBuffer.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderComponent.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderConstants.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderSystem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawableItem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawCalls.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\MaterialBatch.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\RenderTarget.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\camera\Camera.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\camera\CameraComponent.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\ColorMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\FlatMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\GlyphDebugMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\IMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\LambertMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\QuadTreeDebugMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\SDFGlyphMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextBoxDebugMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextureMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\UIDebugMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\WireframeMaterial.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\Material.hpp" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Geometry.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Mesh.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\technique\Pass.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\technique\RenderTechnique.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\SceneGraphSystem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\TransformComponent.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Handle.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\IObjectPool.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\PoolableObject.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Utils.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Manager.hpp" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\ObjectPool.hpp" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\Animation.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationComponent.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationSystem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextComponent.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextSystem.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\sdf\SdfText.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\msdfgen.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\util.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Bitmap.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Contour.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-coloring.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-segments.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\EdgeColor.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\EdgeHolder.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\equation-solver.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\render-sdf.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\save-bmp.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\shape-description.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Shape.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\SignedDistance.h" />
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Vector2.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

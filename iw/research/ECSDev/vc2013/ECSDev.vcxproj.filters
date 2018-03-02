@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{7FF242CE-CF7E-456F-A9B9-96C67BE402B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System">
+      <UniqueIdentifier>{43823460-9C51-4A2D-A0D5-196AB9F656B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src">
+      <UniqueIdentifier>{F259BE23-28BC-4325-8BD1-9C66661BB8EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs">
+      <UniqueIdentifier>{4BAA29E5-AFE9-49A6-B419-9BD8B7DE90AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\engine">
+      <UniqueIdentifier>{81697EB9-703E-4176-9A52-7FB5E88E0D0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\input">
+      <UniqueIdentifier>{869D7820-2578-4445-BF2A-435BC6A9D03E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\rendering">
+      <UniqueIdentifier>{052D2D70-F9A7-4E96-A583-ED4AC9A9572B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\rendering\batches">
+      <UniqueIdentifier>{B01F4E5E-97DF-40AB-8FEC-367DADFC2307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\rendering\camera">
+      <UniqueIdentifier>{C5848F32-DDD0-46F5-87FF-E4D850942582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\rendering\materials">
+      <UniqueIdentifier>{4823CA05-F161-492B-83E7-7B8E986AF69D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\rendering\mesh">
+      <UniqueIdentifier>{28397550-F0E4-423E-8336-152D7AAF5D0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\rendering\technique">
+      <UniqueIdentifier>{C66AA350-F607-4289-8105-A8B3084B834C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\scene_graph">
+      <UniqueIdentifier>{DFCEC32B-20A6-424F-8933-C70BDA7A3C89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\utils">
+      <UniqueIdentifier>{F3931850-07A7-496B-A9E7-C2559C8232B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\animation">
+      <UniqueIdentifier>{48681139-8B3C-4D4C-BB00-73E187AE0ADF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\text">
+      <UniqueIdentifier>{ECCA80DA-A099-486C-8130-52624E52A8C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\text\sdf">
+      <UniqueIdentifier>{51034335-CF5B-4F3C-A1D0-4AD1B97DD68B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\msdfgen">
+      <UniqueIdentifier>{B522C999-4C1B-43BD-A514-B38408B9D5F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\msdfgen\core">
+      <UniqueIdentifier>{B96EF0CB-FB95-4B5E-A926-EC70628B63F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ECSDevApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ECSDevApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ECS.h">
+      <Filter>Blocks\Entity-Component-System\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Component.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Entity.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Engine.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\ISceneInitializer.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\ISceneLogicState.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\ISystem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Scene.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Gui.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Input.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\InputSystem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\QuadTree.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\QuadTreeNode.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\UIComponent.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\GLBuffer.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderComponent.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderConstants.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderSystem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawableItem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawCalls.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\MaterialBatch.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\RenderTarget.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\camera\Camera.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\camera\CameraComponent.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\ColorMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\FlatMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\GlyphDebugMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\IMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\LambertMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\QuadTreeDebugMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\SDFGlyphMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextBoxDebugMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextureMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\UIDebugMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\WireframeMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\Material.hpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Geometry.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Mesh.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\technique\Pass.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\technique</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\technique\RenderTechnique.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\technique</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\SceneGraphSystem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\TransformComponent.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Handle.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\IObjectPool.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\PoolableObject.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Utils.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Manager.hpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\ObjectPool.hpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\Animation.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationComponent.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationSystem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextComponent.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextSystem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\sdf\SdfText.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\text\sdf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\msdfgen.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\util.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Bitmap.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Contour.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-coloring.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-segments.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\EdgeColor.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\EdgeHolder.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\equation-solver.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\render-sdf.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\save-bmp.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\shape-description.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Shape.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\SignedDistance.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Vector2.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Component.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Entity.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Engine.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Scene.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Gui.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Input.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\InputSystem.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\QuadTree.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\UIComponent.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\GLBuffer.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderComponent.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderSystem.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawableItem.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawCalls.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\MaterialBatch.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\RenderTarget.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\camera\CameraComponent.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\ColorMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\FlatMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\GlyphDebugMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\LambertMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\QuadTreeDebugMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\SDFGlyphMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextBoxDebugMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextureMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\UIDebugMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\WireframeMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Geometry.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Mesh.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\technique\RenderTechnique.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\technique</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\SceneGraphSystem.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\TransformComponent.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Handle.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\IObjectPool.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Utils.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\Animation.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationComponent.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationSystem.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextComponent.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextSystem.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\sdf\SdfText.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\text\sdf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\msdfgen.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\util.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Bitmap.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Contour.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-coloring.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-segments.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\EdgeHolder.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\equation-solver.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\render-sdf.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\save-bmp.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\shape-description.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Shape.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\SignedDistance.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Vector2.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

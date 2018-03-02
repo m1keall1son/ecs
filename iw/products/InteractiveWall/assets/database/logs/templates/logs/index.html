@@ -1,0 +1,18 @@
+<html>
+	<body>
+	<h1>Log Messages</h1>
+		{% if log_list %}
+		<table style="width:800px">
+		{% for message in log_list %}
+			<tr>
+				<td style="width:200px">{{ message.DateTime }}</td>
+				<td style="width:50px" >{{ message.MessageType }}</a></td>
+				<td style="width:550px">{{ message.Message }}</a></td>
+			</tr>
+		{% endfor %}
+		</table>
+		{% else %}
+			<p>No messages are available.</p>
+		{% endif %}
+	</body>
+</html>

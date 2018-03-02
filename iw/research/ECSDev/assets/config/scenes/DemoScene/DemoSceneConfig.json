@@ -1,0 +1,32 @@
+{
+	"name" : "demo scene",
+	"is_opening_scene" : true,
+	"initializer" : "ExampleInitializer",
+	"systems" : [
+		{
+			"type" : "SceneGraphSystem",
+			"pool" : 400,
+			"config" : null
+		},
+		{
+			"type" : "InputSystem",
+			"pool" : 200,
+			"config" : null
+		},
+		{
+			"type" : "AnimationSystem",
+			"pool" : 200,
+			"config" : null
+		},
+		{
+			"type" : "RenderSystem",
+			"pool" : 200,
+			"config" : null
+		},
+		{
+			"type" : "TextSystem",
+			"pool" : 200,
+			"config" : "DemoScene/TextSystem/TextSystemConfig.json"
+		}
+	]
+}

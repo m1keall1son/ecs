@@ -1,0 +1,6 @@
+[submodule "cinder"]
+	path = cinder
+	url = git://github.com/cinder/cinder.git
+[submodule "ECS"]
+	path = cinder/blocks/t2-ecs
+	url = git://github.com/MidnightCommercial/t2-ecs.git

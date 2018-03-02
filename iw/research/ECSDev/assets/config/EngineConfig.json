@@ -1,0 +1,13 @@
+{
+	"asset_directories" : [
+		"images",
+		"shaders",
+		"config",
+		"config/scenes",
+		"fonts",
+		"fonts/sdf"
+	],
+	"scenes" : [
+		"DemoScene/DemoSceneConfig.json"
+	]
+}

@@ -1,0 +1,1130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{46B36B3C-A395-4DD8-8472-D3E3984D8D13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System">
+      <UniqueIdentifier>{52E712D8-A038-4004-A9DF-A9F769806D22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src">
+      <UniqueIdentifier>{11D5488D-E6D7-4FF1-B322-6FC51AF1A679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs">
+      <UniqueIdentifier>{5D074733-D79B-4AB2-9579-A2BA7ED5E659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\engine">
+      <UniqueIdentifier>{FE0963A3-D299-4751-85C4-7B66A08694EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\input">
+      <UniqueIdentifier>{F10BF1D9-57DF-485E-AA60-0A4E63E2F133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\rendering">
+      <UniqueIdentifier>{45F2D620-8293-4C01-B022-ECE7C9EA41A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\rendering\batches">
+      <UniqueIdentifier>{9782E1FE-E89D-42A3-AEAE-627415133ECB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\rendering\camera">
+      <UniqueIdentifier>{028A1848-459D-4C68-A8AC-B02D4C7530AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\rendering\materials">
+      <UniqueIdentifier>{2FB8EF18-1EEE-4D99-96F5-7D21EC7A2A09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\rendering\mesh">
+      <UniqueIdentifier>{81CCBDF3-7EE3-4485-B4D7-957079AD5FD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\rendering\technique">
+      <UniqueIdentifier>{60FC273F-4371-46EF-99D1-6C260C2202F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\scene_graph">
+      <UniqueIdentifier>{FE00EC25-CA04-46C0-A750-86682B05B0A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\utils">
+      <UniqueIdentifier>{8FDE840A-A3C7-419B-ACCC-6733E95EE4AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\animation">
+      <UniqueIdentifier>{5CD954E6-1C56-44CA-B322-A66368DF84FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\text">
+      <UniqueIdentifier>{1A3A5644-5E39-492D-806A-63F8A5F59B7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\text\sdf">
+      <UniqueIdentifier>{02319B03-211D-445A-BF9D-8AD438A2D8DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\msdfgen">
+      <UniqueIdentifier>{32E8A970-8D56-4B51-BBBC-0F8E36B4B088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\msdfgen\core">
+      <UniqueIdentifier>{F9CFB6C6-4EE7-49A4-A9AA-C596CF82E507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IWScene">
+      <UniqueIdentifier>{8cee65c2-2f69-41bd-a1d5-e1615287d80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\events">
+      <UniqueIdentifier>{23b72cd3-a7c8-43e8-8baf-78162f7e642d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Taxonomy">
+      <UniqueIdentifier>{2fb4609b-de93-4f20-8079-773fecb39920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StartUpScene">
+      <UniqueIdentifier>{c3eddbb0-4693-487c-9152-9911beb3c1e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\midnight-http">
+      <UniqueIdentifier>{73ddc0f5-4b71-4bbe-84a4-d9ac4d2fdbe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\midnight-http\src">
+      <UniqueIdentifier>{2fcb88c3-85d1-4e90-872e-a33aecd04d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\physics">
+      <UniqueIdentifier>{40f68d42-6886-485b-92ac-ab2c39c45c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Entity-Component-System\src\ecs\physics\2d">
+      <UniqueIdentifier>{b32c8a8c-baf1-4c35-8d06-4ee0f3c40056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Box2D">
+      <UniqueIdentifier>{bea38090-4a53-45d7-9a58-e1c895eb12e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\midnight-zed">
+      <UniqueIdentifier>{4a17e497-a9ee-4581-a811-c7ba2f31801b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\midnight-zed\src">
+      <UniqueIdentifier>{2aa0ca1a-5e97-4988-8d4c-c1bf9a61617e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\midnight-pqlabsTouchSDK">
+      <UniqueIdentifier>{5b226159-3090-4157-857b-dc7689cc81ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\midnight-pqlabsTouchSDK\include">
+      <UniqueIdentifier>{dd0e0062-b0ff-4c74-b827-fdbc86c31dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IWDemo">
+      <UniqueIdentifier>{8f86c5e8-3c1c-4f06-9507-4ffc3f49f7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IWDemo\materials">
+      <UniqueIdentifier>{6cdc9ab8-5da5-44e9-a689-4baddc7ae4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WMFVideo">
+      <UniqueIdentifier>{d23b4c77-d8c5-4080-b768-2868bb9382ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WMFVideo\presenter">
+      <UniqueIdentifier>{919e2a38-0aef-4630-824c-2aea172dbe2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WMFVideo\presenter\common">
+      <UniqueIdentifier>{846c73ae-6cb6-4273-899d-6ba945d14aba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\InteractiveWallApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InteractiveWallApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ECS.h">
+      <Filter>Blocks\Entity-Component-System\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Component.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Entity.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Engine.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\ISceneInitializer.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\ISceneLogicState.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\ISystem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Scene.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Gui.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Input.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\InputSystem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\QuadTree.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\QuadTreeNode.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\UIComponent.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\GLBuffer.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderComponent.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderConstants.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderSystem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawableItem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawCalls.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\MaterialBatch.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\RenderTarget.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\camera\Camera.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\camera\CameraComponent.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\ColorMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\FlatMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\GlyphDebugMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\IMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\LambertMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\QuadTreeDebugMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\SDFGlyphMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextBoxDebugMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextureMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\UIDebugMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\WireframeMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\Material.hpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Geometry.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Mesh.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\technique\Pass.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\technique</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\technique\RenderTechnique.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\technique</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\SceneGraphSystem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\TransformComponent.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\scene_graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Handle.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\IObjectPool.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\PoolableObject.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Utils.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Manager.hpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\ObjectPool.hpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\Animation.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationComponent.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationSystem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextComponent.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextSystem.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\sdf\SdfText.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\text\sdf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\msdfgen.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\util.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Bitmap.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Contour.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-coloring.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-segments.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\EdgeColor.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\EdgeHolder.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\equation-solver.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\render-sdf.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\save-bmp.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\shape-description.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Shape.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\SignedDistance.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Vector2.h">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Component.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\Entity.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Engine.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\engine\Scene.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Gui.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\Input.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\InputSystem.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\QuadTree.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\input\UIComponent.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\GLBuffer.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderComponent.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\RenderSystem.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawableItem.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\DrawCalls.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\MaterialBatch.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\batches\RenderTarget.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\batches</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\camera\CameraComponent.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\ColorMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\FlatMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\GlyphDebugMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\LambertMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\QuadTreeDebugMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\SDFGlyphMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextBoxDebugMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TextureMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\UIDebugMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\WireframeMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Geometry.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\mesh\Mesh.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\technique\RenderTechnique.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\technique</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\SceneGraphSystem.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\scene_graph\TransformComponent.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\scene_graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Handle.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\IObjectPool.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Utils.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\Animation.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationComponent.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\animation\AnimationSystem.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextComponent.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\TextSystem.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\text\sdf\SdfText.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\text\sdf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\msdfgen.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\util.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Bitmap.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Contour.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-coloring.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\edge-segments.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\EdgeHolder.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\equation-solver.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\render-sdf.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\save-bmp.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\shape-description.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Shape.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\SignedDistance.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\msdfgen\core\Vector2.cpp">
+      <Filter>Blocks\Entity-Component-System\src\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\events\EventManager.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Taxonomy\ProductComponent.cpp">
+      <Filter>Source Files\Taxonomy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Taxonomy\TaxonomySystem.cpp">
+      <Filter>Source Files\Taxonomy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWScene\FarAwayState.cpp">
+      <Filter>Source Files\IWScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWScene\IWEvents.cpp">
+      <Filter>Source Files\IWScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWScene\IWInitializer.cpp">
+      <Filter>Source Files\IWScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWScene\PDPState.cpp">
+      <Filter>Source Files\IWScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWScene\ApproachState.cpp">
+      <Filter>Source Files\IWScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWScene\EngageState.cpp">
+      <Filter>Source Files\IWScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Taxonomy\CloudComponent.cpp">
+      <Filter>Source Files\Taxonomy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StartUpScene\LoadState.cpp">
+      <Filter>Source Files\StartUpScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StartUpScene\StartUpInit.cpp">
+      <Filter>Source Files\StartUpScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Taxonomy\SubcategoryComponent.cpp">
+      <Filter>Source Files\Taxonomy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\midnight-http\src\HttpClient.cpp">
+      <Filter>Blocks\midnight-http\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Taxonomy\DatabaseAPI.cpp">
+      <Filter>Source Files\Taxonomy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\RigidBodyComponent2d.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\physics\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\b2DebugDraw.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\physics\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\Joint2d.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\physics\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\PhysicsSystem2d.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\physics\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWScene\Layout.cpp">
+      <Filter>Source Files\IWScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TexturePoolMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\Spring2d.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\physics\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Triangle.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Triangluator.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\midnight-zed\src\Analysis.cpp">
+      <Filter>Blocks\midnight-zed\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\midnight-zed\src\PointCloud.cpp">
+      <Filter>Blocks\midnight-zed\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\midnight-zed\src\Zed.cpp">
+      <Filter>Blocks\midnight-zed\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\midnight-zed\src\PersonDetector.cpp">
+      <Filter>Blocks\midnight-zed\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\midnight-pqlabsTouchSDK\include\ciPQLabsTouch.cpp">
+      <Filter>Blocks\midnight-pqlabsTouchSDK\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWDemo\DemoInit.cpp">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWDemo\DemoFarAway.cpp">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWDemo\DemoApproach.cpp">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWDemo\DemoEngage.cpp">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWDemo\DemoPDP.cpp">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWDemo\DemoEvents.cpp">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWDemo\Serial.cpp">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayerUtils.cpp">
+      <Filter>Blocks\Cinder-WMFVideo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayer.cpp">
+      <Filter>Blocks\Cinder-WMFVideo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\PresentEngine.cpp">
+      <Filter>Blocks\Cinder-WMFVideo\presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\Presenter.cpp">
+      <Filter>Blocks\Cinder-WMFVideo\presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\PresenterHelpers.cpp">
+      <Filter>Blocks\Cinder-WMFVideo\presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\scheduler.cpp">
+      <Filter>Blocks\Cinder-WMFVideo\presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\IMaterial.cpp">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IWDemo\VideoMaterial.cpp">
+      <Filter>Source Files\IWDemo\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2BroadPhase.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2CollideCircle.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2CollideEdge.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2CollidePolygon.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2Collision.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2Distance.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2DynamicTree.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2TimeOfImpact.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2ChainShape.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2CircleShape.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2EdgeShape.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2PolygonShape.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2BlockAllocator.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Draw.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Math.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Settings.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2StackAllocator.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Timer.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2Body.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2ContactManager.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2Fixture.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2Island.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2World.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2WorldCallbacks.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2CircleContact.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2Contact.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2ContactSolver.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2PolygonContact.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2DistanceJoint.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2FrictionJoint.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2GearJoint.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2Joint.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2MouseJoint.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2PulleyJoint.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2RopeJoint.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2WeldJoint.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2WheelJoint.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Rope\b2Rope.cpp">
+      <Filter>Blocks\Box2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\events\EventData.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\events\EventManager.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\events\EventManagerBase.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\FastDelegate.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\FastDelegateBind.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Taxonomy\CloudComponent.h">
+      <Filter>Source Files\Taxonomy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Taxonomy\ProductComponent.h">
+      <Filter>Source Files\Taxonomy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Taxonomy\SubcategoryComponent.h">
+      <Filter>Source Files\Taxonomy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Taxonomy\TaxonomyEnums.h">
+      <Filter>Source Files\Taxonomy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Taxonomy\TaxonomySystem.h">
+      <Filter>Source Files\Taxonomy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWScene\EngageState.h">
+      <Filter>Source Files\IWScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWScene\FarAwayState.h">
+      <Filter>Source Files\IWScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWScene\IWEvents.h">
+      <Filter>Source Files\IWScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWScene\IWInitializer.h">
+      <Filter>Source Files\IWScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWScene\IWStates.h">
+      <Filter>Source Files\IWScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWScene\PDPState.h">
+      <Filter>Source Files\IWScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWScene\ApproachState.h">
+      <Filter>Source Files\IWScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\StartUpScene\LoadState.h">
+      <Filter>Source Files\StartUpScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\StartUpScene\StartUpInit.h">
+      <Filter>Source Files\StartUpScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-http\src\HttpClient.h">
+      <Filter>Blocks\midnight-http\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Taxonomy\DatabaseAPI.h">
+      <Filter>Source Files\Taxonomy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\PhysicsSystem2d.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\physics\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\RigidBodyComponent2d.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\physics\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\TriggerComponent2d.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\physics\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\b2DebugDraw.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\physics\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWScene\Layout.h">
+      <Filter>Source Files\IWScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWScene\CollisionTypes.h">
+      <Filter>Source Files\IWScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\rendering\materials\TexturePoolMaterial.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\rendering\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\Joint2d.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\physics\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\physics\2d\Spring2d.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\physics\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Triangluator.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Edge.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\t2-ecs\src\ecs\utils\Triangle.h">
+      <Filter>Blocks\Entity-Component-System\src\ecs\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-zed\src\Analysis.h">
+      <Filter>Blocks\midnight-zed\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-zed\src\PointCloud.hpp">
+      <Filter>Blocks\midnight-zed\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-zed\src\Zed.h">
+      <Filter>Blocks\midnight-zed\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-zed\src\PersonDetector.h">
+      <Filter>Blocks\midnight-zed\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-pqlabsTouchSDK\include\ciPQLabsTouch.h">
+      <Filter>Blocks\midnight-pqlabsTouchSDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\midnight-pqlabsTouchSDK\include\PQMTClient.h">
+      <Filter>Blocks\midnight-pqlabsTouchSDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWDemo\DemoInit.h">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWDemo\DemoFarAway.h">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWDemo\DemoApproach.h">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWDemo\DemoEngage.h">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWDemo\DemoPDP.h">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWDemo\DemoEvents.h">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWDemo\Serial.h">
+      <Filter>Source Files\IWDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayer.h">
+      <Filter>Blocks\Cinder-WMFVideo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayerUtils.h">
+      <Filter>Blocks\Cinder-WMFVideo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\PresentEngine.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\Presenter.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\PresenterHelpers.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\scheduler.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\EVRPresenter.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\EVRPresenterUuid.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\ClassFactory.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\common.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\critsec.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\GrowArray.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\linklist.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\logging.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\logmediatype.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\mediatype.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\mfutils.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\PropVar.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\registry.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\TinyMap.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\trace.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\AsyncCB.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Cinder-WMFVideo\src\presenter\common\BufferLock.h">
+      <Filter>Blocks\Cinder-WMFVideo\presenter\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IWDemo\VideoMaterial.h">
+      <Filter>Source Files\IWDemo\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Box2D.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2BroadPhase.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2Collision.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2Distance.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2DynamicTree.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\b2TimeOfImpact.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2ChainShape.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2CircleShape.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2EdgeShape.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2PolygonShape.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Collision\Shapes\b2Shape.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2BlockAllocator.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Draw.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2GrowableStack.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Math.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Settings.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2StackAllocator.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Common\b2Timer.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2Body.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2ContactManager.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2Fixture.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2Island.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2TimeStep.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2World.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\b2WorldCallbacks.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2CircleContact.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2Contact.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2ContactSolver.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Contacts\b2PolygonContact.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2DistanceJoint.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2FrictionJoint.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2GearJoint.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2Joint.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2MouseJoint.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2PrismaticJoint.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2PulleyJoint.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2RevoluteJoint.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2RopeJoint.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2WeldJoint.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Dynamics\Joints\b2WheelJoint.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder\blocks\Box2D\src\Box2D\Rope\b2Rope.h">
+      <Filter>Blocks\Box2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

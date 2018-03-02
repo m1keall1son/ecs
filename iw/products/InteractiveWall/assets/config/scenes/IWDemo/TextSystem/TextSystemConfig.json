@@ -1,0 +1,15 @@
+{
+   "fonts" : [
+      {
+         "cached" : [
+            {
+               "path" : "fonts/sdf/OpenSans-Regular-20.sdft",
+               "size" : 20
+            }
+         ],
+         "font_path" : "fonts/Open_Sans/OpenSans-Regular.ttf",
+         "font_name" : "OpenSans-Regular"
+      }
+   ],
+   "texture size" : 1024
+}

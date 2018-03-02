@@ -1,0 +1,16 @@
+{
+	"asset_directories" : [
+		"images",
+		"shaders",
+		"config",
+		"config/scenes",
+		"fonts",
+		"fonts/sdf"
+	],
+	"scenes" : [
+		"StartUpScene/StartUpSceneConfig.json",
+		"IWScene/IWSceneConfig.json",
+		"IWDemo/IWDemoConfig.json"
+	], 
+	"first_scene" : "IWDemo"
+}

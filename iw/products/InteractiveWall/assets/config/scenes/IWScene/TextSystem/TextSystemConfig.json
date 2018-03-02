@@ -1,0 +1,83 @@
+{
+   "fonts" : [
+      {
+         "cached" : [
+            {
+               "path" : "fonts/sdf/OpenSans-Regular-20.sdft",
+               "size" : 20
+            }
+         ],
+         "font_path" : "fonts/Open_Sans/OpenSans-Regular.ttf",
+         "font_name" : "OpenSans-Regular"
+      },
+      {
+         "cached" : [
+            {
+               "path" : "fonts/sdf/Roboto-Regular-15.sdft",
+               "size" : 15
+            },
+            {
+               "path" : "fonts/sdf/Roboto-Regular-30.sdft",
+               "size" : 30
+            },
+            {
+               "path" : "fonts/sdf/Roboto-Regular-60.sdft",
+               "size" : 60
+            }
+         ],
+         "font_path" : "fonts/Roboto/Roboto-Regular.ttf",
+         "font_name" : "Roboto-Regular"
+      },
+      {
+         "cached" : [
+            {
+               "path" : "fonts/sdf/Roboto-Light-15.sdft",
+               "size" : 15
+            },
+            {
+               "path" : "fonts/sdf/Roboto-Light-30.sdft",
+               "size" : 30
+            }
+         ],
+         "font_path" : "fonts/Roboto/Roboto-Light.ttf",
+         "font_name" : "Roboto-Light"
+      },
+      {
+         "cached" : [
+            {
+               "path" : "fonts/sdf/Target-Medium-15.sdft",
+               "size" : 15
+            },
+            {
+               "path" : "fonts/sdf/Target-Medium-30.sdft",
+               "size" : 30
+            },
+            {
+               "path" : "fonts/sdf/Target-Medium-45.sdft",
+               "size" : 45
+            },
+            {
+               "path" : "fonts/sdf/Target-Medium-60.sdft",
+               "size" : 60
+            }
+         ],
+         "font_path" : "fonts/TargetHelvetica/HelveticaNeueforTarget-Md.otf",
+         "font_name" : "Target-Medium"
+      },
+      {
+         "cached" : [
+            {
+               "path" : "fonts/sdf/Target-Light-15.sdft",
+               "size" : 15
+            },
+            {
+               "path" : "fonts/sdf/Target-Light-30.sdft",
+               "size" : 30
+            }
+         ],
+         "font_path" : "fonts/TargetHelvetica/HelveticaNeueforTarget-Lt.otf",
+         "font_name" : "Target-Light"
+      }
+   ],
+   "texture size" : 1024
+}
